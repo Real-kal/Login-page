@@ -65,3 +65,23 @@ h2{
     display: inline-block;
     border-radius: 50px;
 }
+@media (max-width: 680px){
+    h1{
+        font-size: 40px;
+        margin: 0;
+    }
+    .two{
+        padding: 20px;
+        margin: 10px 40px 0px;
+    }
+    .back-vid{
+        position: absolute;
+        z-index: -1;
+        margin: 0;
+        right: 0;
+        
+    }
+    }
+
+}
+
