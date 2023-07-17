@@ -1,0 +1,67 @@
+.one{
+    color: rgb(255, 255, 255);
+
+
+}
+h1{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 60px;
+    display: block;
+    text-align: center;   
+}
+.two{
+    text-align: center;
+    border: 2px groove rgb(255, 248, 248);
+    margin: 50px 30% 0px;
+    border-radius: 50px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.two > input{
+    display: block;
+    padding: 15px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    width: 50%;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.two > .checkbox{
+    margin: 6px;
+}
+.two > button{
+    padding: 5px;
+    width: 25%;
+    margin-bottom: 5%;
+}
+h2{
+    font-size: 40px;
+}
+.back-vid{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+.two > a{
+    color: white;
+    text-decoration: none;
+}
+.hope{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+#progress{
+    width: 30%;
+    position: static;
+    display: block;
+    margin: 10% 35%;
+}
+
+.login{
+    border: 2px solid white;
+    padding: 15px 70px;
+    margin: 5px 0px 20px;
+    display: inline-block;
+    border-radius: 50px;
+}
