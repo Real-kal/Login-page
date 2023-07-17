@@ -1,14 +1,14 @@
 .one{
     color: rgb(255, 255, 255);
-
-
 }
+
 h1{
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 60px;
     display: block;
     text-align: center;   
 }
+
 .two{
     text-align: center;
     border: 2px groove rgb(255, 248, 248);
@@ -19,17 +19,19 @@ h1{
 .two > input{
     display: block;
     padding: 15px;
-    margin-left: 23%;
-    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-bottom: 0px;
     width: 50%;
     font-family: 'Ysabeau SC', sans-serif;
     border-radius: 50px;
+
 }
 .two > .checkbox{
     margin: 6px;
 }
 h2{
     font-size: 40px;
+    margin: 0;
 }
 .back-vid{
     position: absolute;
@@ -57,18 +59,18 @@ h2{
 .login{
     border: 2px solid white;
     padding: 15px 70px;
-    margin: 5px 0px 20px;
+    margin: 5px 0px 20px ;
     display: inline-block;
     border-radius: 50px;
 }
 @media (max-width: 680px){
     h1{
         font-size: 40px;
-        margin: 0;
+        margin-bottom: 10px;
     }
     .two{
         padding: 20px;
-        margin: 10px 40px 0px;
+        margin: 0px 40px 0px;
     }
     .back-vid{
         position: absolute;
@@ -78,9 +80,10 @@ h2{
         
     }
     .two > input{
-        margin-left: 4%;
-        width: 300px;
+        width: 90%;
+        margin-left: 0;
+        margin-bottom: 5px;
+        margin-top: 0px;
     }
-    
 
 }
