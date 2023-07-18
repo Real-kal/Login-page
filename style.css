@@ -62,6 +62,7 @@ h2{
     margin: 5px 0px 20px ;
     display: inline-block;
     border-radius: 50px;
+    background-color: blue;
 }
 @media (max-width: 680px){
     h1{
